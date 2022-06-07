@@ -11,7 +11,7 @@ export default function Intro() {
      backDelay:1500,
      backspeed:60,
   
-     strings: ["Developer", "Designer","Freelancer"]
+     strings: ["Javascript", "React","SQL ","Full Stack"]
    });
   },[])
   return (
@@ -25,7 +25,7 @@ export default function Intro() {
         <div className="wrapper">
           <h2>Hi!🤸‍♀️ I'm </h2> 
           <h1>Delmy Elias</h1>
-          <h3> Future <span ref={textRef}></span></h3>
+          <h3> <span ref={textRef}></span> Developer </h3>
         </div>
         <a href="#portfolio">
           <img src="assets/downarrow.png" alt="🔽"/>
