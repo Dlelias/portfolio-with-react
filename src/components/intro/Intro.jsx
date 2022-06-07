@@ -11,14 +11,14 @@ export default function Intro() {
      backDelay:1500,
      backspeed:60,
   
-     strings: ["Javascript", "React","SQL ","Full Stack"]
+     strings: ["Javascript", "React","SQL","Full Stack"]
    });
   },[])
   return (
     <div className="intro" id ="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/explorer.jpg" alt="image is loading ☠ "/>
+          <img src="assets/explorer.jpg"/>
         </div>
       </div>
       <div className="right">
